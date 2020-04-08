@@ -25,6 +25,6 @@ class MemberController extends Controller
      */
     public function getRelationship(Request $request, $id)
     {
-		return response()->json(Member::where('id', '=', $id)->first()->getDescendantsAndSelf()->toHierarchy()->first());
+		return response()->json(Member::descendantsAndSelf($id)->toTree()->first());
 	}
 }

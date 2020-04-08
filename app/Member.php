@@ -2,10 +2,10 @@
 
 namespace App;
 
-use Baum\NestedSet\Node as WorksAsNestedSet;
+use Kalnoy\Nestedset\NodeTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Member extends Model
 {
-    use WorksAsNestedSet;
+    use NodeTrait;
 }

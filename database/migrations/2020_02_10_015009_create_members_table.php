@@ -16,7 +16,6 @@ class CreateMembersTable extends Migration
         Schema::create('members', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->smallInteger('tier')->unsigned()->nullable();
             // We declare here the nested set structure columns/fields
             $table->nestedSet();
             $table->timestamps();
