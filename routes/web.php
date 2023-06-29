@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('member/relationship/{id}', [MemberController::class, 'showRelationship'])->where('id', '[0-9]+');
 Route::get('ajax/member/relationship/{id}', [MemberController::class, 'getRelationship'])->where('id', '[0-9]+');
