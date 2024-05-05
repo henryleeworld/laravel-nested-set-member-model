@@ -8,13 +8,11 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create('members', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->string('name');
             // We declare here the nested set structure columns/fields
             $table->nestedSet();
@@ -24,10 +22,8 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('members');
     }

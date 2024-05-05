@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-use Kalnoy\Nestedset\NodeTrait;
 use Illuminate\Database\Eloquent\Model;
+use Kalnoy\Nestedset\NodeTrait;
 
 class Member extends Model
 {
