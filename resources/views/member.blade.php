@@ -6,7 +6,7 @@
         <meta property="og:title" content="{{ config('app.name') }}" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="{{ app()->getLocale() }}" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/orgchart/3.7.0/css/jquery.orgchart.min.css" integrity="sha512-6LeDHdJNCsBQCCCA2fUbuEct1qeYQbq03XkSuD00BtlE6TPdQWNZtiV2zjcYRy/D1QeqvyvzOr7wigKHyGs0wA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style type="text/css">
             body {
