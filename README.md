@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/xGwFeZj.png)
+![](https://i.imgur.com/bD1AZq7.png)
 > 發展新加入者，或者通過組織者或其他人發展其他新加入者成為參加者的推廣會員

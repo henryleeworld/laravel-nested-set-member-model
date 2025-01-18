@@ -1,0 +1,13 @@
+body {
+    font-family: "Noto Serif TC", serif;
+}
+
+.orgchart {
+    background: #fff;
+}
+
+#chart-container {
+    border: 1px solid #aaa;
+    overflow: auto;
+    text-align: center;
+}
