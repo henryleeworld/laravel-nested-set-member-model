@@ -1,4 +1,4 @@
-# Laravel 11 巢狀會員資料表
+# Laravel 12 巢狀會員資料表
 
 引入 kalnoy 的 nestedset 套件來擴增實作方便處理樹狀節點資料結構的資料模型，可以讓我們在不需要遍歷整顆樹的情況下，用極少的主機資源獲取節點、計算節點數量或是映射關連資料表。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/bD1AZq7.png)
+![](https://i.imgur.com/mlem9Rs.png)
 > 發展新加入者，或者通過組織者或其他人發展其他新加入者成為參加者的推廣會員

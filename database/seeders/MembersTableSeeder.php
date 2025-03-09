@@ -7,13 +7,10 @@ use Illuminate\Support\Facades\DB;
 
 class MembersTableSeeder extends Seeder
 {
-
     /**
-     * Auto generated seed file
-     *
-     * @return void
+     * Run the database seeders.
      */
-    public function run()
+    public function run(): void
     {
         DB::table('members')->delete();
         DB::table('members')->insert([
